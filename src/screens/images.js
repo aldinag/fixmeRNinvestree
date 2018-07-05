@@ -7,11 +7,7 @@ const { width } = Dimensions.get('window')
 export default class Images extends Component {
   render() {
     return (
-      <View
-        style={{
-          flexDirection: 'column'
-        }}
-      >
+      <View style={{justifyContent:'center', alignItems: 'center'}}>
         <Image
           source={iconLogo}
           resizeMethod="auto"

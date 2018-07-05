@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import { Text, View, StyleSheet } from 'react-native'
-import Images from '../images'
+import Images from './images'
 
 export default class Home extends Component {
   render() {
     return (
-      <View>
+      <View style={{flex: 1}}>
         <Text style={styles.intro}>
           Investree Testing! 
         </Text>
