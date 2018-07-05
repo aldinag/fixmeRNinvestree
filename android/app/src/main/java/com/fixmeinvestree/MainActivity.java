@@ -1,5 +1,5 @@
 package com.fixmeinvestree;
-// AGUSTINUS
+
 import com.facebook.react.ReactActivity;
 
 public class MainActivity extends ReactActivity {
